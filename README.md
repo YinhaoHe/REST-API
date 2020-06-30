@@ -7,4 +7,8 @@ node.js
 
 npm express mongoose
 
-npm dotenv nodemon
+npm dotenv nodemon  
+
+.env -- environment variables  
+
+.gitignore -- ignore the .env & node_modules files
