@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/15
+GET http://localhost:3000/subscribers/5efd8b8f5310d154dcb0f55b
 
 ###
 POST http://localhost:3000/subscribers
@@ -11,4 +11,15 @@ Content-Type: application/json
 {
     "name": "Charles",
     "subscribedToChannel": "REST server build"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5efd8b8f5310d154dcb0f55b
+
+###
+PATCH  http://localhost:3000/subscribers/5efd9189128d4557be07ba16
+Content-Type: application/json
+
+{
+    "name": "New name"
 }
